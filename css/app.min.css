@@ -1517,7 +1517,16 @@ svg {
   background: rgba(35, 31, 32, 0.5);
 }
 @media screen and (hover: hover) {
-  .main__item:hover .main__item-inner::after {
+  .main__item[href]:hover .main__body {
+    opacity: 1;
+    color: #FFFFFF;
+  }
+  .main__item:not([href]):hover .main__item-inner::after {
+    opacity: 0;
+  }
+}
+@media screen and (hover: none) {
+  .main__item:not([href]) .main__item-inner::after {
     opacity: 0;
   }
 }
@@ -1667,6 +1676,92 @@ svg {
   background: rgba(35, 31, 32, 0.9);
   -webkit-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
+}
+.main__body {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  padding-right: 48px;
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+@media screen and (hover: hover) {
+  .main__body {
+    opacity: 0.2;
+    color: #E2E2E2;
+  }
+}
+@media screen and (hover: none) {
+  .main__body {
+    color: #FFFFFF;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1919px) {
+  .main__body {
+    padding-right: 32px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .main__body {
+    padding-right: 0;
+  }
+}
+.main__title {
+  display: block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 32px;
+  font-weight: normal;
+}
+@media screen and (min-width: 1200px) and (max-width: 1919px) {
+  .main__title {
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+  .main__title {
+    font-size: 48px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .main__title {
+    font-size: 22px;
+    line-height: 1;
+  }
+}
+.main__description {
+  display: block;
+  margin-top: 25px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 24px;
+  font-weight: 300;
+}
+@media screen and (min-width: 1200px) and (max-width: 1919px) {
+  .main__description {
+    margin-top: 17px;
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+  .main__description {
+    margin-top: 53px;
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .main__description {
+    margin-top: 22px;
+    font-size: 14px;
+  }
 }
 .main__bg {
   position: absolute;
