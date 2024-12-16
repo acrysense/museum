@@ -3437,8 +3437,18 @@ svg {
   width: -moz-fit-content;
   width: fit-content;
 }
-.years__item + .years__item {
-  margin-left: 67px;
+.years__item:nth-child(2n+3) {
+  margin-left: 14px;
+}
+@media screen and (min-width: 1200px) and (max-width: 1919px) {
+  .years__item:nth-child(2n+3) {
+    margin-left: 10px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .years__item:nth-child(even) .years__link {
+    margin-left: auto;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .years__item + .years__item {
