@@ -132,7 +132,7 @@ svg {
   width: 100%;
   font-size: 16px;
   font-weight: 300;
-  color: #7A6B29;
+  color: #AD9A46;
   background: transparent;
   border: none;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -162,7 +162,7 @@ svg {
 }
 .input-field__input:focus {
   outline: none;
-  border-color: #7A6B29;
+  border-color: #AD9A46;
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .input-field__input {
@@ -207,11 +207,11 @@ svg {
   transition: all 0.25s ease-in-out;
 }
 .select-box__selected--active {
-  color: #7A6B29;
+  color: #AD9A46;
 }
 @media screen and (hover: hover) {
   .select-box__selected:hover {
-    color: #7A6B29;
+    color: #AD9A46;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -247,7 +247,7 @@ svg {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #7A6B29;
+  color: #AD9A46;
 }
 .select-box__values--active {
   display: -webkit-box;
@@ -291,7 +291,7 @@ svg {
   display: none;
 }
 .select-box__radio:checked + label {
-  color: #7A6B29;
+  color: #AD9A46;
 }
 .select-box__label {
   display: -webkit-box;
@@ -312,7 +312,7 @@ svg {
 }
 @media screen and (hover: hover) {
   .select-box__label:hover {
-    color: #7A6B29;
+    color: #AD9A46;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -433,15 +433,15 @@ svg {
 }
 .square-checkbox__title a {
   display: inline;
-  color: #7A6B29;
+  color: #AD9A46;
   border-bottom: 1px solid transparent;
 }
 .square-checkbox__title a:hover {
-  color: #7A6B29;
+  color: #AD9A46;
 }
 @media screen and (hover: hover) {
   .square-checkbox__title a:hover {
-    border-color: #7A6B29;
+    border-color: #AD9A46;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -490,10 +490,10 @@ svg {
 @media screen and (hover: hover) {
   .c-search-trigger__btn:hover {
     opacity: 1;
-    color: #7A6B29;
+    color: #AD9A46;
   }
   .c-search-trigger__btn:hover > svg {
-    color: #7A6B29;
+    color: #AD9A46;
   }
 }
 @media screen and (min-width: 1200px) and (max-width: 1919px) {
@@ -647,7 +647,7 @@ svg {
 }
 @media screen and (hover: hover) {
   .c-search__close:hover > svg {
-    color: #7A6B29;
+    color: #AD9A46;
   }
 }
 @media screen and (max-width: 767px) {
@@ -844,10 +844,10 @@ svg {
 @media screen and (hover: hover) {
   .header__link:hover {
     opacity: 1;
-    color: #7A6B29;
+    color: #AD9A46;
   }
   .header__link:hover > svg {
-    color: #7A6B29;
+    color: #AD9A46;
   }
 }
 @media screen and (min-width: 1200px) and (max-width: 1919px) {
@@ -1081,7 +1081,7 @@ svg {
   }
 }
 .nav__item.is--active .nav__link {
-  color: #7A6B29;
+  color: #AD9A46;
 }
 @media screen and (min-width: 1200px) {
   .nav__item:nth-child(n+4) {
@@ -1091,6 +1091,11 @@ svg {
     font-size: 16px;
     font-weight: 300;
     opacity: 0.5;
+  }
+}
+@media screen and (min-width: 1200px) and (hover: hover) {
+  .nav__item:nth-child(n+4) .nav__link:hover {
+    opacity: 1;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -1122,6 +1127,13 @@ svg {
     font-weight: 300;
     opacity: 0.5;
   }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) and (hover: hover) {
+  .nav__item:nth-child(4) .nav__link:hover {
+    opacity: 1;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .nav__item:nth-child(5) {
     -webkit-box-ordinal-group: 5;
         -ms-flex-order: 4;
@@ -1133,6 +1145,13 @@ svg {
     font-weight: 300;
     opacity: 0.5;
   }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) and (hover: hover) {
+  .nav__item:nth-child(5) .nav__link:hover {
+    opacity: 1;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .nav__item:nth-child(6) {
     -webkit-box-ordinal-group: 7;
         -ms-flex-order: 6;
@@ -1143,6 +1162,11 @@ svg {
     font-size: 16px;
     font-weight: 300;
     opacity: 0.5;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) and (hover: hover) {
+  .nav__item:nth-child(6) .nav__link:hover {
+    opacity: 1;
   }
 }
 @media screen and (max-width: 767px) {
@@ -1208,7 +1232,7 @@ svg {
 @media screen and (hover: hover) {
   .nav__link:hover {
     opacity: 1;
-    color: #7A6B29;
+    color: #AD9A46;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -1504,7 +1528,7 @@ svg {
 }
 @media screen and (hover: hover) {
   .footer__content a:hover {
-    color: #7A6B29;
+    color: #AD9A46;
   }
 }
 @media screen and (min-width: 1200px) and (max-width: 1919px) {
@@ -1566,7 +1590,7 @@ svg {
 }
 @media screen and (hover: hover) {
   .footer__copyright a:hover {
-    color: #7A6B29;
+    color: #AD9A46;
   }
 }
 @media screen and (min-width: 1200px) and (max-width: 1919px) {
@@ -1638,7 +1662,7 @@ svg {
 }
 @media screen and (hover: hover) {
   .footer-nav__link:hover {
-    color: #7A6B29;
+    color: #AD9A46;
   }
 }
 @media screen and (min-width: 1200px) and (max-width: 1919px) {
@@ -2073,7 +2097,7 @@ svg {
 }
 @media screen and (hover: hover) {
   .modal__close-btn:hover > svg {
-    color: #7A6B29;
+    color: #AD9A46;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -2170,12 +2194,12 @@ svg {
   max-width: 1680px;
   width: 100%;
 }
-@media screen and (min-width: 1280px) and (max-width: 1599px) {
+@media screen and (min-width: 1200px) and (max-width: 1599px) {
   .container {
     max-width: 1170px;
   }
 }
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
   .container {
     max-width: 923px;
   }
@@ -2775,10 +2799,10 @@ svg {
 @media screen and (hover: hover) {
   .residents__more:hover {
     opacity: 1;
-    color: #7A6B29;
+    color: #AD9A46;
   }
   .residents__more:hover > svg {
-    color: #7A6B29;
+    color: #AD9A46;
   }
 }
 @media screen and (max-width: 767px) {
@@ -2931,7 +2955,7 @@ svg {
 }
 @media screen and (hover: hover) {
   .residents-letters__link:hover {
-    color: #7A6B29;
+    color: #AD9A46;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -3126,7 +3150,7 @@ svg {
 }
 @media screen and (hover: hover) {
   .residents-alphabet__link:hover {
-    color: #7A6B29;
+    color: #AD9A46;
   }
 }
 
@@ -3171,10 +3195,10 @@ svg {
 @media screen and (hover: hover) {
   .resident__back:hover {
     opacity: 1;
-    color: #7A6B29;
+    color: #AD9A46;
   }
   .resident__back:hover > svg {
-    color: #7A6B29;
+    color: #AD9A46;
   }
 }
 @media screen and (max-width: 767px) {
@@ -3252,10 +3276,10 @@ svg {
 @media screen and (hover: hover) {
   .resident__more:hover {
     opacity: 1;
-    color: #7A6B29;
+    color: #AD9A46;
   }
   .resident__more:hover > svg {
-    color: #7A6B29;
+    color: #AD9A46;
   }
 }
 @media screen and (max-width: 767px) {
@@ -3388,7 +3412,7 @@ svg {
 }
 @media screen and (hover: hover) {
   .history__list li a:hover {
-    color: #7A6B29;
+    color: #AD9A46;
   }
 }
 @media screen and (max-width: 767px) {
@@ -3437,7 +3461,7 @@ svg {
 }
 @media screen and (hover: hover) {
   .years__link:hover {
-    color: #7A6B29;
+    color: #AD9A46;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -4015,7 +4039,7 @@ svg {
 }
 @media screen and (hover: hover) {
   .contacts__content a:hover {
-    color: #7A6B29;
+    color: #AD9A46;
   }
 }
 .contacts__content img {
@@ -4175,7 +4199,7 @@ svg {
 }
 @media screen and (hover: hover) {
   .application__close:hover > svg {
-    color: #7A6B29;
+    color: #AD9A46;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -4499,7 +4523,7 @@ svg {
 }
 @media screen and (hover: hover) {
   .search-form__clear:hover > svg {
-    color: #7A6B29;
+    color: #AD9A46;
   }
 }
 @media screen and (max-width: 767px) {
@@ -4669,7 +4693,7 @@ svg {
 }
 @media screen and (hover: hover) {
   .tickets__content ul li a:hover {
-    color: #7A6B29;
+    color: #AD9A46;
   }
 }
 @media screen and (max-width: 767px) {
@@ -4690,7 +4714,7 @@ svg {
 }
 @media screen and (hover: hover) {
   .tickets__content a:hover {
-    color: #7A6B29;
+    color: #AD9A46;
   }
 }
 .tickets__more {
@@ -4724,10 +4748,10 @@ svg {
 }
 @media screen and (hover: hover) {
   .tickets__more:hover {
-    color: #7A6B29;
+    color: #AD9A46;
   }
   .tickets__more:hover > svg {
-    color: #7A6B29;
+    color: #AD9A46;
   }
 }
 @media screen and (min-width: 1024px) {
